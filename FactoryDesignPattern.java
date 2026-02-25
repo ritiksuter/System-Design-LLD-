@@ -1,6 +1,5 @@
 interface Vehicle {
     void start();
-
     void stop();
 }
 
@@ -35,16 +34,13 @@ class Bike implements Vehicle {
 }
 
 
-
 // Vehicle Factory Method
 class VehicleFactory {
     public static Vehicle getVehicle(String vehicleType) {
         if (vehicleType.equals("Car")) return new Car();
         else if (vehicleType.equals("Truck")) return new Truck();
         else if (vehicleType.equals("Bike")) return new Bike();
-        else {
-            throw new IllegalArgumentException("Unknown Vehicle type...");
-        }
+        else throw new IllegalArgumentException("Unknown Vehicle type...");
     }
 }
 

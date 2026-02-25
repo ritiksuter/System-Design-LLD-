@@ -1,4 +1,3 @@
-// Vehicle.java - Common Interface
 interface Vehicle {
   void start();
   void stop();
