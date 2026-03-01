@@ -44,7 +44,7 @@ class YellowState implements TrafficLightState {
 }
 
 class TrafficLightContext {
-    privateLightState currentState;
+    private TrafficLightState currentState;
 
     public TrafficLightContext() {
         currentState = new RedState();
