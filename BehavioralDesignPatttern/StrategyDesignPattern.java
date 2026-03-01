@@ -1,5 +1,3 @@
-package BehavioralDesignPatttern;
-
 interface PaymentStrategy {
     void processPayment();
 }

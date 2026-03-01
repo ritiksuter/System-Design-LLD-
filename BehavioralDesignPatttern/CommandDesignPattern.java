@@ -1,5 +1,3 @@
-package BehavioralDesignPatttern;
-
 interface Command {
     void execute(); // Executes the command
 }

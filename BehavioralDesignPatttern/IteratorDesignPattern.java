@@ -1,5 +1,3 @@
-package BehavioralDesignPatttern;
-
 import java.util.ArrayList;
 import java.util.Collections;
 
